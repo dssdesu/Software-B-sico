@@ -1,0 +1,41 @@
+1º TRABALHO SOFTWARE BASICO - 2025.2
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Aluno:
+Daniel Santana Souza - 2310995 - 3WC
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Todas as funções propostas para o trabalho foram implementadas e estão funcionando devidamente, conforme demonstrado pelos testes.
+
+	big_val(BigInt res, long val) 		    - ok.
+	big_comp2(BigInt res, BigInt a) 	    - ok.
+	big_sum(BigInt res, BigInt a, BigInt b)	- ok.
+	big_sub(BigInt res, BigInt a, BigInt b) - ok.
+	big_mul(BigInt res, BigInt a, BigInt b) - ok.
+	big_shl(BigInt res, BigInt a, int n) 	- ok.
+	big_shr (BigInt res, BigInt a, int n) 	- ok.
+	big_sar (BigInt res, BigInt a, int n) 	- ok.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Foram testados os seguintes valores:
+
+	a. Soma
+		258 + (-5)				= 000000000000000000000000000000fd
+
+	b. Subtração
+		258 - 10				= 000000000000000000000000000000f8
+
+	c. Multiplicação
+		(-5) * 10				= ffffffffffffffffffffffffffffffd2
+
+	d. Complemento a 2
+		comp2(-5)				= 00000000000000000000000000000005
+
+	e. Shift Left (shl)
+		258 << 9				= 00000000000000000000000000020400
+
+	f. Shift Right Lógico (shr)
+		258 >> 2				= 00000000000000000000000000000040
+
+	g. Shift Right Aritmético (sar)
+		-5 >> 1					= fffffffffffffffffffffffffffffffd
